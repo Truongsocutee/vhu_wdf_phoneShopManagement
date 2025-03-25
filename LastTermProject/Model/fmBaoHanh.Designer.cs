@@ -121,7 +121,7 @@
             // 
             this.txtKH.Location = new System.Drawing.Point(272, 331);
             this.txtKH.Name = "txtKH";
-            this.txtKH.Size = new System.Drawing.Size(183, 20);
+            this.txtKH.Size = new System.Drawing.Size(229, 20);
             this.txtKH.TabIndex = 172;
             this.txtKH.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtKH.TextChanged += new System.EventHandler(this.txtKH_TextChanged);
@@ -131,7 +131,7 @@
             this.txtSC.Location = new System.Drawing.Point(272, 172);
             this.txtSC.Name = "txtSC";
             this.txtSC.ReadOnly = true;
-            this.txtSC.Size = new System.Drawing.Size(183, 20);
+            this.txtSC.Size = new System.Drawing.Size(229, 20);
             this.txtSC.TabIndex = 170;
             this.txtSC.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -140,7 +140,7 @@
             this.txtNgayGD.Location = new System.Drawing.Point(272, 92);
             this.txtNgayGD.Name = "txtNgayGD";
             this.txtNgayGD.ReadOnly = true;
-            this.txtNgayGD.Size = new System.Drawing.Size(183, 20);
+            this.txtNgayGD.Size = new System.Drawing.Size(229, 20);
             this.txtNgayGD.TabIndex = 169;
             this.txtNgayGD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtNgayGD.TextChanged += new System.EventHandler(this.txtNgayGD_TextChanged);
@@ -287,7 +287,7 @@
             this.btnTP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTP.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTP.ForeColor = System.Drawing.Color.White;
-            this.btnTP.Location = new System.Drawing.Point(291, 653);
+            this.btnTP.Location = new System.Drawing.Point(311, 650);
             this.btnTP.Name = "btnTP";
             this.btnTP.Size = new System.Drawing.Size(100, 35);
             this.btnTP.TabIndex = 185;
@@ -300,7 +300,7 @@
             this.btnTinhTrang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTinhTrang.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTinhTrang.ForeColor = System.Drawing.Color.White;
-            this.btnTinhTrang.Location = new System.Drawing.Point(546, 653);
+            this.btnTinhTrang.Location = new System.Drawing.Point(566, 650);
             this.btnTinhTrang.Name = "btnTinhTrang";
             this.btnTinhTrang.Size = new System.Drawing.Size(100, 35);
             this.btnTinhTrang.TabIndex = 187;
@@ -313,7 +313,7 @@
             this.btnIP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnIP.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIP.ForeColor = System.Drawing.Color.White;
-            this.btnIP.Location = new System.Drawing.Point(421, 653);
+            this.btnIP.Location = new System.Drawing.Point(441, 650);
             this.btnIP.Name = "btnIP";
             this.btnIP.Size = new System.Drawing.Size(100, 35);
             this.btnIP.TabIndex = 186;
@@ -354,7 +354,7 @@
             // 
             this.txtSP.Location = new System.Drawing.Point(272, 500);
             this.txtSP.Name = "txtSP";
-            this.txtSP.Size = new System.Drawing.Size(183, 20);
+            this.txtSP.Size = new System.Drawing.Size(229, 20);
             this.txtSP.TabIndex = 190;
             this.txtSP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -394,7 +394,7 @@
             // 
             this.txtPhi.Location = new System.Drawing.Point(272, 561);
             this.txtPhi.Name = "txtPhi";
-            this.txtPhi.Size = new System.Drawing.Size(183, 20);
+            this.txtPhi.Size = new System.Drawing.Size(229, 20);
             this.txtPhi.TabIndex = 194;
             this.txtPhi.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtPhi.TextChanged += new System.EventHandler(this.txtPhi_TextChanged);
@@ -448,7 +448,7 @@
             this.Controls.Add(this.label14);
             this.Controls.Add(this.txtControl);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "fmBaoHanh";
             this.Text = "fmBaoHanh";
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();

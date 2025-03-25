@@ -16,5 +16,12 @@ namespace LastTermProject.Model
         {
             InitializeComponent();
         }
+
+        private void fmDonHang_Load(object sender, EventArgs e)
+        {
+            txtNgayGD.Text = DateTime.Now.ToString("dd / MM / yyyy");
+            for (int i = 1; i < 11; i++)
+                cbxSoLuong.Items.Add(i.ToString());
+        }
     }
 }

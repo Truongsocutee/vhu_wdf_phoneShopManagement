@@ -16,5 +16,17 @@ namespace LastTermProject.Model
         {
             InitializeComponent();
         }
+
+        private void fmTaiChinh_Load(object sender, EventArgs e)
+        {
+            for (int i = 2017; i < 2030; i++)
+                cbxNam.Items.Add(i.ToString());
+            for (int i = 1; i < 5; i++)
+                cbxQuy.Items.Add(i.ToString());
+            for (int i = 1; i < 13; i++)
+                cbxThang.Items.Add(i.ToString());
+            for (int i = 1; i < 32; i++)
+                cbxNgay.Items.Add(i.ToString());
+        }
     }
 }

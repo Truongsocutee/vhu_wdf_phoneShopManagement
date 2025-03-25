@@ -41,7 +41,6 @@
             this.label12 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.cbxSP = new System.Windows.Forms.ComboBox();
             this.txtKH = new System.Windows.Forms.TextBox();
             this.txtMaDH = new System.Windows.Forms.TextBox();
             this.txtNgayGD = new System.Windows.Forms.TextBox();
@@ -57,6 +56,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.dgvDonHang = new System.Windows.Forms.DataGridView();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDonHang)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
@@ -195,20 +195,11 @@
             this.label8.TabIndex = 141;
             this.label8.Text = "Mã đơn hàng:";
             // 
-            // cbxSP
-            // 
-            this.cbxSP.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.cbxSP.FormattingEnabled = true;
-            this.cbxSP.Location = new System.Drawing.Point(226, 408);
-            this.cbxSP.Name = "cbxSP";
-            this.cbxSP.Size = new System.Drawing.Size(210, 26);
-            this.cbxSP.TabIndex = 152;
-            // 
             // txtKH
             // 
             this.txtKH.Location = new System.Drawing.Point(274, 255);
             this.txtKH.Name = "txtKH";
-            this.txtKH.Size = new System.Drawing.Size(183, 20);
+            this.txtKH.Size = new System.Drawing.Size(229, 20);
             this.txtKH.TabIndex = 151;
             this.txtKH.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtKH.TextChanged += new System.EventHandler(this.txtKH_TextChanged);
@@ -218,7 +209,7 @@
             this.txtMaDH.Location = new System.Drawing.Point(274, 171);
             this.txtMaDH.Name = "txtMaDH";
             this.txtMaDH.ReadOnly = true;
-            this.txtMaDH.Size = new System.Drawing.Size(183, 20);
+            this.txtMaDH.Size = new System.Drawing.Size(229, 20);
             this.txtMaDH.TabIndex = 149;
             this.txtMaDH.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -227,7 +218,7 @@
             this.txtNgayGD.Location = new System.Drawing.Point(274, 91);
             this.txtNgayGD.Name = "txtNgayGD";
             this.txtNgayGD.ReadOnly = true;
-            this.txtNgayGD.Size = new System.Drawing.Size(183, 20);
+            this.txtNgayGD.Size = new System.Drawing.Size(229, 20);
             this.txtNgayGD.TabIndex = 148;
             this.txtNgayGD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -248,7 +239,7 @@
             this.btnXT.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXT.ForeColor = System.Drawing.Color.White;
             this.btnXT.Image = global::LastTermProject.Properties.Resources.settings_backup_restore;
-            this.btnXT.Location = new System.Drawing.Point(491, 461);
+            this.btnXT.Location = new System.Drawing.Point(500, 460);
             this.btnXT.Name = "btnXT";
             this.btnXT.Size = new System.Drawing.Size(97, 30);
             this.btnXT.TabIndex = 158;
@@ -273,7 +264,7 @@
             this.btnThem.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThem.ForeColor = System.Drawing.Color.White;
             this.btnThem.Image = global::LastTermProject.Properties.Resources.add;
-            this.btnThem.Location = new System.Drawing.Point(386, 461);
+            this.btnThem.Location = new System.Drawing.Point(395, 460);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(93, 30);
             this.btnThem.TabIndex = 156;
@@ -339,21 +330,30 @@
             // dgvDonHang
             // 
             this.dgvDonHang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDonHang.Location = new System.Drawing.Point(146, 514);
+            this.dgvDonHang.Location = new System.Drawing.Point(137, 511);
             this.dgvDonHang.Name = "dgvDonHang";
             this.dgvDonHang.RowHeadersWidth = 51;
-            this.dgvDonHang.Size = new System.Drawing.Size(683, 276);
+            this.dgvDonHang.Size = new System.Drawing.Size(683, 225);
             this.dgvDonHang.TabIndex = 163;
             // 
             // errorProvider1
             // 
             this.errorProvider1.ContainerControl = this;
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(226, 413);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(231, 20);
+            this.textBox1.TabIndex = 164;
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // fmBanHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(899, 748);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.dgvDonHang);
             this.Controls.Add(this.txtSoKH);
             this.Controls.Add(this.cbxSoLuong);
@@ -364,7 +364,6 @@
             this.Controls.Add(this.btnThem);
             this.Controls.Add(this.cbxMau);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.cbxSP);
             this.Controls.Add(this.txtKH);
             this.Controls.Add(this.txtMaDH);
             this.Controls.Add(this.txtNgayGD);
@@ -382,7 +381,7 @@
             this.Controls.Add(this.label14);
             this.Controls.Add(this.txtControl);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "fmBanHang";
             this.Text = "fmBanHang";
             this.Load += new System.EventHandler(this.fmBanHang_Load);
@@ -407,7 +406,6 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.ComboBox cbxSP;
         private System.Windows.Forms.TextBox txtKH;
         private System.Windows.Forms.TextBox txtMaDH;
         private System.Windows.Forms.TextBox txtNgayGD;
@@ -423,5 +421,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DataGridView dgvDonHang;
         private System.Windows.Forms.ErrorProvider errorProvider1;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
