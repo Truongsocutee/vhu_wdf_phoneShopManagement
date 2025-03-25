@@ -174,7 +174,6 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="Circle-Logo.ico" />
-    <Content Include="DuyGay.txt" />
     <Content Include="Materials\Icons\add.png" />
     <Content Include="Materials\Icons\menu.png" />
     <Content Include="Materials\Icons\settings_backup_restore.png" />
