@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.txtControl = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtControl
@@ -43,11 +44,21 @@
             this.txtControl.TabIndex = 1;
             this.txtControl.Text = "           Đăng nhập";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(355, 278);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(70, 16);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Tài khoản:";
+            // 
             // fmDangNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1181, 934);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.txtControl);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "fmDangNhap";
@@ -60,5 +71,6 @@
         #endregion
 
         private System.Windows.Forms.Label txtControl;
+        private System.Windows.Forms.Label label1;
     }
 }
