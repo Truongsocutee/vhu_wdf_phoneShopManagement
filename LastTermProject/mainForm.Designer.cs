@@ -347,7 +347,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::LastTermProject.Properties.Resources.Rect_Logo;
-            this.pictureBox1.Location = new System.Drawing.Point(30, 3);
+            this.pictureBox1.Location = new System.Drawing.Point(14, 7);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(98, 30);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -356,7 +356,7 @@
             // 
             // sataEllipseControl1
             // 
-            this.sataEllipseControl1.CornerRadius = 40;
+            this.sataEllipseControl1.CornerRadius = 30;
             this.sataEllipseControl1.TargetControl = this;
             // 
             // Main
