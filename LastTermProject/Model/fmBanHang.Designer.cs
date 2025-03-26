@@ -45,9 +45,7 @@
             this.txtMaDH = new System.Windows.Forms.TextBox();
             this.txtNgayGD = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.btnXT = new System.Windows.Forms.Button();
             this.label15 = new System.Windows.Forms.Label();
-            this.btnThem = new System.Windows.Forms.Button();
             this.cbxMau = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
             this.txtSoKH = new System.Windows.Forms.TextBox();
@@ -57,6 +55,8 @@
             this.dgvDonHang = new System.Windows.Forms.DataGridView();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.btnThem = new System.Windows.Forms.Button();
+            this.btnXT = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDonHang)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
@@ -232,21 +232,6 @@
             this.label7.TabIndex = 147;
             this.label7.Text = "Màu sắc:";
             // 
-            // btnXT
-            // 
-            this.btnXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(87)))), ((int)(((byte)(159)))));
-            this.btnXT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnXT.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXT.ForeColor = System.Drawing.Color.White;
-            this.btnXT.Image = global::LastTermProject.Properties.Resources.settings_backup_restore;
-            this.btnXT.Location = new System.Drawing.Point(500, 460);
-            this.btnXT.Name = "btnXT";
-            this.btnXT.Size = new System.Drawing.Size(97, 30);
-            this.btnXT.TabIndex = 158;
-            this.btnXT.Text = "    ";
-            this.btnXT.UseVisualStyleBackColor = false;
-            this.btnXT.Click += new System.EventHandler(this.btnXT_Click);
-            // 
             // label15
             // 
             this.label15.AutoSize = true;
@@ -256,20 +241,6 @@
             this.label15.Size = new System.Drawing.Size(97, 18);
             this.label15.TabIndex = 157;
             this.label15.Text = "Số điện thoại:";
-            // 
-            // btnThem
-            // 
-            this.btnThem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(87)))), ((int)(((byte)(159)))));
-            this.btnThem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnThem.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThem.ForeColor = System.Drawing.Color.White;
-            this.btnThem.Image = global::LastTermProject.Properties.Resources.add;
-            this.btnThem.Location = new System.Drawing.Point(395, 460);
-            this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(93, 30);
-            this.btnThem.TabIndex = 156;
-            this.btnThem.Text = "    ";
-            this.btnThem.UseVisualStyleBackColor = false;
             // 
             // cbxMau
             // 
@@ -348,6 +319,35 @@
             this.textBox1.TabIndex = 164;
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // btnThem
+            // 
+            this.btnThem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(87)))), ((int)(((byte)(159)))));
+            this.btnThem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnThem.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThem.ForeColor = System.Drawing.Color.White;
+            this.btnThem.Image = global::LastTermProject.Properties.Resources.add;
+            this.btnThem.Location = new System.Drawing.Point(395, 460);
+            this.btnThem.Name = "btnThem";
+            this.btnThem.Size = new System.Drawing.Size(93, 30);
+            this.btnThem.TabIndex = 156;
+            this.btnThem.Text = "    ";
+            this.btnThem.UseVisualStyleBackColor = false;
+            // 
+            // btnXT
+            // 
+            this.btnXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(87)))), ((int)(((byte)(159)))));
+            this.btnXT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnXT.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXT.ForeColor = System.Drawing.Color.White;
+            this.btnXT.Image = global::LastTermProject.Properties.Resources.settings_backup_restore;
+            this.btnXT.Location = new System.Drawing.Point(500, 460);
+            this.btnXT.Name = "btnXT";
+            this.btnXT.Size = new System.Drawing.Size(97, 30);
+            this.btnXT.TabIndex = 158;
+            this.btnXT.Text = "    ";
+            this.btnXT.UseVisualStyleBackColor = false;
+            this.btnXT.Click += new System.EventHandler(this.btnXT_Click);
+            // 
             // fmBanHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -410,9 +410,7 @@
         private System.Windows.Forms.TextBox txtMaDH;
         private System.Windows.Forms.TextBox txtNgayGD;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Button btnXT;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Button btnThem;
         private System.Windows.Forms.ComboBox cbxMau;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtSoKH;
@@ -422,5 +420,7 @@
         private System.Windows.Forms.DataGridView dgvDonHang;
         private System.Windows.Forms.ErrorProvider errorProvider1;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button btnXT;
+        private System.Windows.Forms.Button btnThem;
     }
 }

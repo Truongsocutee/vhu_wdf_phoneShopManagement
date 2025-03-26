@@ -7,8 +7,12 @@ txtKH: Tên khách hang
 txtSoKH: Số điện thoại
 txtPhi: phí sửa chưa
 txtNgayTra: Ngày trả sản phẩm sửa chữa
+txtTenSP: tên sản phẩm
 txtGC: Ghi chú
 txtDC: Địa chỉ
+txtKM: mã khuyến mãi
+txtSL: nhập số lượng
+txtMau: nhập màu sắc
 txtSP: Mã sản phẩm
 txtSC: Mã sửa chữa
 rbtMot: Một lần
@@ -26,7 +30,8 @@ cbxDT: Độ tuổi
 btnThem: nút them
 btnTinhTrang: Nút xem tình trạng sửa chữa
 btnXT: nút xóa trắng
-btnLich: nút lịch
+btnXoa: nút xóa thông tin sp
+btnSua: nút sửa thông tin sp
 btnTP: nút tạo phiếu sửa chữa
 btnIP: nút in phiếu sửa chữa
 btnKT: kiểm tra sp cụ thể trong đơn hàng
@@ -84,6 +89,14 @@ dgvDH: bang thống kê đơn hàng
 - Khong tạo đươc hàm cho tính năng của thống kê
 
 - Load dữ liệu lên datagridview
+ 
+		* form Thiết bị
+
+- Khong tạo đươc hàm cho tính năng của thống kê,kiểm tra 
+
+- Load dữ liệu lên datagridview
+
+- lưu dữ lieu vào database
 
 
 
