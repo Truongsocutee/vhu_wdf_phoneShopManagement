@@ -187,5 +187,10 @@ namespace LastTermProject
             this.pnMain.Tag = f;
             f.Show();
         }
+
+        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
+        {
+
+        }
     }
 }

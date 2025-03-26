@@ -16,7 +16,5 @@ namespace LastTermProject.Model
         {
             InitializeComponent();
         }
-
-       
     }
 }

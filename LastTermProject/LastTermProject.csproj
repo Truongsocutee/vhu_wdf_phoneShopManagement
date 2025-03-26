@@ -51,6 +51,9 @@
     <ApplicationIcon>Circle-Logo.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="SATAUiFramework, Version=1.0.0.2, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SATAUiFramework.1.1.2\lib\net40\SATAUiFramework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -158,6 +161,7 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Materials\Fonts\1FTVVIPLensGrotesk-ExtraBold.otf" />
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -176,6 +180,8 @@
     <Content Include="Circle-Logo.ico" />
     <Content Include="Materials\Icons\add.png" />
     <Content Include="Materials\Icons\menu.png" />
+    <Content Include="Materials\Icons\remove_red_eye.png" />
+    <Content Include="Materials\Icons\remove_red_eye_cover.png" />
     <Content Include="Materials\Icons\settings_backup_restore.png" />
     <Content Include="Materials\Icons\today.png" />
     <Content Include="Materials\Images\Circle-Logo.ico" />
@@ -190,6 +196,7 @@
     <Content Include="Materials\Images\NonVertify.png" />
     <Content Include="Materials\Images\NonVer_small.png" />
     <Content Include="Materials\Images\Rect-Logo.png" />
+    <Content Include="Materials\Images\Rectangle 27.png" />
     <Content Include="Materials\Images\saved_search.png" />
     <Content Include="Materials\Images\Sell.png" />
     <Content Include="Materials\Images\Vertify.png" />
