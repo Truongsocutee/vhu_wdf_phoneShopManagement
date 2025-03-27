@@ -18,7 +18,8 @@ namespace LastTermProject
         Color btnNonHoverClicked = Color.FromArgb(35, 104, 187);
         Color btnHoverClicked = Color.FromArgb(0, 65, 144);
         Color btnNonHoverNonClicked = Color.FromArgb(41, 78, 122);
-        Color btnHoverNonClicked = Color.FromArgb(33, 59, 90);
+        Color btnHoverNonClicked = Color.FromArgb(56, 102, 158);
+
         public Main()
         {
             InitializeComponent();
@@ -95,7 +96,7 @@ namespace LastTermProject
         }
 
         bool[] select = new bool[8];
-        int lastIdx = 0;
+        int lastIdx = -1;
         Panel[] panels;
         private void Main_Load(object sender, EventArgs e)
         {
@@ -110,9 +111,13 @@ namespace LastTermProject
         private void updateControl(int tab)
         {
             select[tab] = true;
-            select[lastIdx] = false;
+            if (lastIdx != -1)
+            {
+                select[lastIdx] = false;
+                panels[lastIdx].BackColor = btnNonHoverNonClicked;
+            }
             //Update màu
-            panels[lastIdx].BackColor = btnNonHoverNonClicked;
+            
             panels[tab].BackColor = btnNonHoverClicked;
             //Cập nhật index
             lastIdx = tab;
@@ -191,6 +196,113 @@ namespace LastTermProject
         private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
         {
 
+        }
+
+        private void btnHome_MouseHover(object sender, EventArgs e)
+        {
+            updateHover(0);
+        }
+
+        private void updateHover(int panelNums)
+        {
+            Panel p = panels[panelNums] as Panel;
+            
+            if (lastIdx == panelNums)
+            {
+                p.BackColor = btnHoverClicked;
+            } else
+            {
+                p.BackColor = btnHoverNonClicked;
+            }
+            
+        }
+
+        private void btnHome_MouseLeave(object sender, EventArgs e)
+        {
+            removeHover(0);
+        }
+
+        private void removeHover(int panelNums)
+        {
+            Panel p = panels[panelNums] as Panel;
+            if (lastIdx == panelNums)
+            {
+                p.BackColor = btnNonHoverClicked;
+            }
+            else
+            {
+                p.BackColor = btnNonHoverNonClicked;
+            }
+        }
+
+        private void btnDangNhap_MouseHover(object sender, EventArgs e)
+        {
+            updateHover(1);
+        }
+
+        private void btnDangNhap_MouseLeave(object sender, EventArgs e)
+        {
+            removeHover(1);
+        }
+
+        private void BtnBanHang_MouseHover(object sender, EventArgs e)
+        {
+            updateHover(2);
+        }
+
+        private void BtnBanHang_MouseLeave(object sender, EventArgs e)
+        {
+            removeHover(2);
+        }
+
+        private void btnBaoHanh_MouseHover(object sender, EventArgs e)
+        {
+            updateHover(3);
+        }
+
+        private void btnBaoHanh_MouseLeave(object sender, EventArgs e)
+        {
+            removeHover(3);
+        }
+
+        private void btnDonHang_MouseHover(object sender, EventArgs e)
+        {
+            updateHover(4);
+        }
+
+        private void btnDonHang_MouseLeave(object sender, EventArgs e)
+        {
+            removeHover(4);
+        }
+
+        private void btnThietBi_MouseHover(object sender, EventArgs e)
+        {
+            updateHover(7);
+        }
+
+        private void btnThietBi_MouseLeave(object sender, EventArgs e)
+        {
+            removeHover(7);
+        }
+
+        private void btnPhanTich_MouseHover(object sender, EventArgs e)
+        {
+            updateHover(5);
+        }
+
+        private void btnPhanTich_MouseLeave(object sender, EventArgs e)
+        {
+            removeHover(5);
+        }
+
+        private void btnTaiChinh_MouseHover(object sender, EventArgs e)
+        {
+            updateHover(6);
+        }
+
+        private void btnTaiChinh_MouseLeave(object sender, EventArgs e)
+        {
+            removeHover(6);
         }
     }
 }

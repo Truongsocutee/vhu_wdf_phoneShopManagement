@@ -199,7 +199,7 @@
             // txtKH
             // 
             this.txtKH.Location = new System.Drawing.Point(365, 314);
-            this.txtKH.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtKH.Margin = new System.Windows.Forms.Padding(4);
             this.txtKH.Name = "txtKH";
             this.txtKH.Size = new System.Drawing.Size(304, 22);
             this.txtKH.TabIndex = 151;
@@ -209,7 +209,7 @@
             // txtMaDH
             // 
             this.txtMaDH.Location = new System.Drawing.Point(365, 210);
-            this.txtMaDH.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMaDH.Margin = new System.Windows.Forms.Padding(4);
             this.txtMaDH.Name = "txtMaDH";
             this.txtMaDH.ReadOnly = true;
             this.txtMaDH.Size = new System.Drawing.Size(304, 22);
@@ -220,7 +220,7 @@
             // 
             this.txtNgayGD.Font = new System.Drawing.Font("Bahnschrift SemiBold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNgayGD.Location = new System.Drawing.Point(365, 112);
-            this.txtNgayGD.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNgayGD.Margin = new System.Windows.Forms.Padding(4);
             this.txtNgayGD.Name = "txtNgayGD";
             this.txtNgayGD.ReadOnly = true;
             this.txtNgayGD.Size = new System.Drawing.Size(304, 28);
@@ -254,7 +254,7 @@
             this.cbxMau.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.cbxMau.FormattingEnabled = true;
             this.cbxMau.Location = new System.Drawing.Point(709, 502);
-            this.cbxMau.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbxMau.Margin = new System.Windows.Forms.Padding(4);
             this.cbxMau.Name = "cbxMau";
             this.cbxMau.Size = new System.Drawing.Size(169, 31);
             this.cbxMau.TabIndex = 155;
@@ -273,7 +273,7 @@
             // txtSoKH
             // 
             this.txtSoKH.Location = new System.Drawing.Point(861, 314);
-            this.txtSoKH.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSoKH.Margin = new System.Windows.Forms.Padding(4);
             this.txtSoKH.Name = "txtSoKH";
             this.txtSoKH.Size = new System.Drawing.Size(231, 22);
             this.txtSoKH.TabIndex = 162;
@@ -285,7 +285,7 @@
             this.cbxSoLuong.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.cbxSoLuong.FormattingEnabled = true;
             this.cbxSoLuong.Location = new System.Drawing.Point(1005, 505);
-            this.cbxSoLuong.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbxSoLuong.Margin = new System.Windows.Forms.Padding(4);
             this.cbxSoLuong.Name = "cbxSoLuong";
             this.cbxSoLuong.Size = new System.Drawing.Size(87, 31);
             this.cbxSoLuong.TabIndex = 161;
@@ -295,7 +295,7 @@
             this.cbxNhanVien.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.cbxNhanVien.FormattingEnabled = true;
             this.cbxNhanVien.Location = new System.Drawing.Point(861, 210);
-            this.cbxNhanVien.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbxNhanVien.Margin = new System.Windows.Forms.Padding(4);
             this.cbxNhanVien.Name = "cbxNhanVien";
             this.cbxNhanVien.Size = new System.Drawing.Size(231, 31);
             this.cbxNhanVien.TabIndex = 160;
@@ -315,7 +315,7 @@
             // 
             this.dgvDonHang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvDonHang.Location = new System.Drawing.Point(183, 629);
-            this.dgvDonHang.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvDonHang.Margin = new System.Windows.Forms.Padding(4);
             this.dgvDonHang.Name = "dgvDonHang";
             this.dgvDonHang.RowHeadersWidth = 51;
             this.dgvDonHang.Size = new System.Drawing.Size(911, 277);
@@ -328,7 +328,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(301, 508);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(307, 22);
             this.textBox1.TabIndex = 164;
@@ -371,7 +371,7 @@
             this.btnThem.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThem.ForeColor = System.Drawing.Color.White;
             this.btnThem.Image = global::LastTermProject.Properties.Resources.add;
-            this.btnThem.Location = new System.Drawing.Point(395, 460);
+            this.btnThem.Location = new System.Drawing.Point(526, 578);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(93, 30);
             this.btnThem.TabIndex = 156;
@@ -385,7 +385,7 @@
             this.btnXT.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXT.ForeColor = System.Drawing.Color.White;
             this.btnXT.Image = global::LastTermProject.Properties.Resources.settings_backup_restore;
-            this.btnXT.Location = new System.Drawing.Point(500, 460);
+            this.btnXT.Location = new System.Drawing.Point(631, 578);
             this.btnXT.Name = "btnXT";
             this.btnXT.Size = new System.Drawing.Size(97, 30);
             this.btnXT.TabIndex = 158;
