@@ -53,6 +53,9 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.sataEllipseControl1 = new SATAUiFramework.Controls.SATAEllipseControl();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.pnTrangChu.SuspendLayout();
@@ -115,91 +118,94 @@
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(58)))), ((int)(((byte)(89)))));
+            this.flowLayoutPanel1.Controls.Add(this.label3);
             this.flowLayoutPanel1.Controls.Add(this.pnTrangChu);
             this.flowLayoutPanel1.Controls.Add(this.pnDangNhap);
+            this.flowLayoutPanel1.Controls.Add(this.label2);
             this.flowLayoutPanel1.Controls.Add(this.pnBanHang);
             this.flowLayoutPanel1.Controls.Add(this.pnBaoHanh);
             this.flowLayoutPanel1.Controls.Add(this.pnThietBi);
+            this.flowLayoutPanel1.Controls.Add(this.label1);
+            this.flowLayoutPanel1.Controls.Add(this.pnDonHang);
             this.flowLayoutPanel1.Controls.Add(this.pnPhanTich);
             this.flowLayoutPanel1.Controls.Add(this.pnTaiChinh);
-            this.flowLayoutPanel1.Controls.Add(this.pnDonHang);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.flowLayoutPanel1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 43);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(241, 981);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(250, 981);
             this.flowLayoutPanel1.TabIndex = 1;
             // 
             // pnTrangChu
             // 
             this.pnTrangChu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(78)))), ((int)(((byte)(122)))));
             this.pnTrangChu.Controls.Add(this.btnHome);
-            this.pnTrangChu.Location = new System.Drawing.Point(3, 3);
+            this.pnTrangChu.Location = new System.Drawing.Point(3, 45);
             this.pnTrangChu.Name = "pnTrangChu";
-            this.pnTrangChu.Size = new System.Drawing.Size(238, 61);
+            this.pnTrangChu.Size = new System.Drawing.Size(245, 61);
             this.pnTrangChu.TabIndex = 2;
             // 
             // pnDangNhap
             // 
             this.pnDangNhap.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(78)))), ((int)(((byte)(122)))));
             this.pnDangNhap.Controls.Add(this.btnDangNhap);
-            this.pnDangNhap.Location = new System.Drawing.Point(3, 70);
+            this.pnDangNhap.Location = new System.Drawing.Point(3, 112);
             this.pnDangNhap.Name = "pnDangNhap";
-            this.pnDangNhap.Size = new System.Drawing.Size(238, 61);
+            this.pnDangNhap.Size = new System.Drawing.Size(245, 61);
             this.pnDangNhap.TabIndex = 3;
             // 
             // pnBanHang
             // 
             this.pnBanHang.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(78)))), ((int)(((byte)(122)))));
             this.pnBanHang.Controls.Add(this.BtnBanHang);
-            this.pnBanHang.Location = new System.Drawing.Point(3, 137);
+            this.pnBanHang.Location = new System.Drawing.Point(3, 221);
             this.pnBanHang.Name = "pnBanHang";
-            this.pnBanHang.Size = new System.Drawing.Size(238, 61);
+            this.pnBanHang.Size = new System.Drawing.Size(245, 61);
             this.pnBanHang.TabIndex = 4;
             // 
             // pnBaoHanh
             // 
             this.pnBaoHanh.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(78)))), ((int)(((byte)(122)))));
             this.pnBaoHanh.Controls.Add(this.btnBaoHanh);
-            this.pnBaoHanh.Location = new System.Drawing.Point(3, 204);
+            this.pnBaoHanh.Location = new System.Drawing.Point(3, 288);
             this.pnBaoHanh.Name = "pnBaoHanh";
-            this.pnBaoHanh.Size = new System.Drawing.Size(238, 61);
+            this.pnBaoHanh.Size = new System.Drawing.Size(245, 61);
             this.pnBaoHanh.TabIndex = 4;
             // 
             // pnThietBi
             // 
             this.pnThietBi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(78)))), ((int)(((byte)(122)))));
-            this.pnThietBi.Controls.Add(this.btnThietBi);
-            this.pnThietBi.Location = new System.Drawing.Point(3, 271);
+            this.pnThietBi.Controls.Add(this.btnDonHang);
+            this.pnThietBi.Location = new System.Drawing.Point(3, 355);
             this.pnThietBi.Name = "pnThietBi";
-            this.pnThietBi.Size = new System.Drawing.Size(238, 61);
+            this.pnThietBi.Size = new System.Drawing.Size(245, 61);
             this.pnThietBi.TabIndex = 4;
             // 
             // pnPhanTich
             // 
             this.pnPhanTich.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(78)))), ((int)(((byte)(122)))));
             this.pnPhanTich.Controls.Add(this.btnPhanTich);
-            this.pnPhanTich.Location = new System.Drawing.Point(3, 338);
+            this.pnPhanTich.Location = new System.Drawing.Point(3, 531);
             this.pnPhanTich.Name = "pnPhanTich";
-            this.pnPhanTich.Size = new System.Drawing.Size(238, 61);
+            this.pnPhanTich.Size = new System.Drawing.Size(245, 61);
             this.pnPhanTich.TabIndex = 4;
             // 
             // pnTaiChinh
             // 
             this.pnTaiChinh.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(78)))), ((int)(((byte)(122)))));
             this.pnTaiChinh.Controls.Add(this.btnTaiChinh);
-            this.pnTaiChinh.Location = new System.Drawing.Point(3, 405);
+            this.pnTaiChinh.Location = new System.Drawing.Point(3, 598);
             this.pnTaiChinh.Name = "pnTaiChinh";
-            this.pnTaiChinh.Size = new System.Drawing.Size(238, 61);
+            this.pnTaiChinh.Size = new System.Drawing.Size(245, 61);
             this.pnTaiChinh.TabIndex = 4;
             // 
             // pnDonHang
             // 
             this.pnDonHang.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(78)))), ((int)(((byte)(122)))));
-            this.pnDonHang.Controls.Add(this.btnDonHang);
-            this.pnDonHang.Location = new System.Drawing.Point(3, 472);
+            this.pnDonHang.Controls.Add(this.btnThietBi);
+            this.pnDonHang.Location = new System.Drawing.Point(3, 464);
             this.pnDonHang.Name = "pnDonHang";
-            this.pnDonHang.Size = new System.Drawing.Size(238, 61);
+            this.pnDonHang.Size = new System.Drawing.Size(245, 61);
             this.pnDonHang.TabIndex = 4;
             // 
             // backgroundWorker1
@@ -209,9 +215,9 @@
             // pnMain
             // 
             this.pnMain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnMain.Location = new System.Drawing.Point(241, 43);
+            this.pnMain.Location = new System.Drawing.Point(250, 43);
             this.pnMain.Name = "pnMain";
-            this.pnMain.Size = new System.Drawing.Size(1199, 981);
+            this.pnMain.Size = new System.Drawing.Size(1190, 981);
             this.pnMain.TabIndex = 2;
             // 
             // btnHome
@@ -221,10 +227,10 @@
             this.btnHome.ForeColor = System.Drawing.SystemColors.Control;
             this.btnHome.Image = global::LastTermProject.Properties.Resources.home;
             this.btnHome.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHome.Location = new System.Drawing.Point(3, 4);
+            this.btnHome.Location = new System.Drawing.Point(1, 4);
             this.btnHome.Name = "btnHome";
-            this.btnHome.Padding = new System.Windows.Forms.Padding(10, 13, 51, 7);
-            this.btnHome.Size = new System.Drawing.Size(234, 57);
+            this.btnHome.Padding = new System.Windows.Forms.Padding(10, 13, 55, 7);
+            this.btnHome.Size = new System.Drawing.Size(238, 57);
             this.btnHome.TabIndex = 2;
             this.btnHome.Text = "      Trang chủ";
             this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
@@ -236,7 +242,7 @@
             this.btnDangNhap.ForeColor = System.Drawing.SystemColors.Control;
             this.btnDangNhap.Image = global::LastTermProject.Properties.Resources.login;
             this.btnDangNhap.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDangNhap.Location = new System.Drawing.Point(-1, 4);
+            this.btnDangNhap.Location = new System.Drawing.Point(2, 0);
             this.btnDangNhap.Name = "btnDangNhap";
             this.btnDangNhap.Padding = new System.Windows.Forms.Padding(10, 13, 40, 7);
             this.btnDangNhap.Size = new System.Drawing.Size(236, 57);
@@ -253,8 +259,8 @@
             this.BtnBanHang.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnBanHang.Location = new System.Drawing.Point(2, 4);
             this.BtnBanHang.Name = "BtnBanHang";
-            this.BtnBanHang.Padding = new System.Windows.Forms.Padding(10, 13, 55, 7);
-            this.BtnBanHang.Size = new System.Drawing.Size(231, 57);
+            this.BtnBanHang.Padding = new System.Windows.Forms.Padding(10, 13, 65, 7);
+            this.BtnBanHang.Size = new System.Drawing.Size(241, 57);
             this.BtnBanHang.TabIndex = 4;
             this.BtnBanHang.Text = "      Bán hàng";
             this.BtnBanHang.Click += new System.EventHandler(this.BtnBanHang_Click);
@@ -266,10 +272,10 @@
             this.btnBaoHanh.ForeColor = System.Drawing.SystemColors.Control;
             this.btnBaoHanh.Image = global::LastTermProject.Properties.Resources.Fix;
             this.btnBaoHanh.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBaoHanh.Location = new System.Drawing.Point(0, 4);
+            this.btnBaoHanh.Location = new System.Drawing.Point(2, 4);
             this.btnBaoHanh.Name = "btnBaoHanh";
-            this.btnBaoHanh.Padding = new System.Windows.Forms.Padding(10, 13, 55, 7);
-            this.btnBaoHanh.Size = new System.Drawing.Size(233, 57);
+            this.btnBaoHanh.Padding = new System.Windows.Forms.Padding(10, 13, 60, 7);
+            this.btnBaoHanh.Size = new System.Drawing.Size(238, 57);
             this.btnBaoHanh.TabIndex = 5;
             this.btnBaoHanh.Text = "      Bảo hành";
             this.btnBaoHanh.Click += new System.EventHandler(this.btnBaoHanh_Click);
@@ -281,10 +287,10 @@
             this.btnThietBi.ForeColor = System.Drawing.SystemColors.Control;
             this.btnThietBi.Image = global::LastTermProject.Properties.Resources.Devices;
             this.btnThietBi.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThietBi.Location = new System.Drawing.Point(3, 4);
+            this.btnThietBi.Location = new System.Drawing.Point(2, 4);
             this.btnThietBi.Name = "btnThietBi";
-            this.btnThietBi.Padding = new System.Windows.Forms.Padding(10, 13, 67, 7);
-            this.btnThietBi.Size = new System.Drawing.Size(231, 57);
+            this.btnThietBi.Padding = new System.Windows.Forms.Padding(10, 13, 76, 7);
+            this.btnThietBi.Size = new System.Drawing.Size(240, 57);
             this.btnThietBi.TabIndex = 6;
             this.btnThietBi.Text = "       Thiết bị";
             this.btnThietBi.Click += new System.EventHandler(this.btnThietBi_Click);
@@ -296,10 +302,10 @@
             this.btnPhanTich.ForeColor = System.Drawing.SystemColors.Control;
             this.btnPhanTich.Image = global::LastTermProject.Properties.Resources.saved_search;
             this.btnPhanTich.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPhanTich.Location = new System.Drawing.Point(1, 4);
+            this.btnPhanTich.Location = new System.Drawing.Point(2, 4);
             this.btnPhanTich.Name = "btnPhanTich";
-            this.btnPhanTich.Padding = new System.Windows.Forms.Padding(10, 13, 55, 7);
-            this.btnPhanTich.Size = new System.Drawing.Size(233, 57);
+            this.btnPhanTich.Padding = new System.Windows.Forms.Padding(10, 13, 65, 7);
+            this.btnPhanTich.Size = new System.Drawing.Size(243, 57);
             this.btnPhanTich.TabIndex = 7;
             this.btnPhanTich.Text = "      Phân tích";
             this.btnPhanTich.Click += new System.EventHandler(this.btnPhanTich_Click);
@@ -311,10 +317,10 @@
             this.btnTaiChinh.ForeColor = System.Drawing.SystemColors.Control;
             this.btnTaiChinh.Image = global::LastTermProject.Properties.Resources.monetization_on;
             this.btnTaiChinh.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTaiChinh.Location = new System.Drawing.Point(4, 4);
+            this.btnTaiChinh.Location = new System.Drawing.Point(1, 4);
             this.btnTaiChinh.Name = "btnTaiChinh";
-            this.btnTaiChinh.Padding = new System.Windows.Forms.Padding(10, 13, 60, 7);
-            this.btnTaiChinh.Size = new System.Drawing.Size(230, 57);
+            this.btnTaiChinh.Padding = new System.Windows.Forms.Padding(10, 13, 70, 7);
+            this.btnTaiChinh.Size = new System.Drawing.Size(240, 57);
             this.btnTaiChinh.TabIndex = 8;
             this.btnTaiChinh.Text = "      Tài chính";
             this.btnTaiChinh.Click += new System.EventHandler(this.btnTaiChinh_Click);
@@ -326,10 +332,10 @@
             this.btnDonHang.ForeColor = System.Drawing.SystemColors.Control;
             this.btnDonHang.Image = global::LastTermProject.Properties.Resources.work;
             this.btnDonHang.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDonHang.Location = new System.Drawing.Point(1, 4);
+            this.btnDonHang.Location = new System.Drawing.Point(2, 4);
             this.btnDonHang.Name = "btnDonHang";
-            this.btnDonHang.Padding = new System.Windows.Forms.Padding(10, 13, 55, 7);
-            this.btnDonHang.Size = new System.Drawing.Size(235, 57);
+            this.btnDonHang.Padding = new System.Windows.Forms.Padding(10, 13, 60, 7);
+            this.btnDonHang.Size = new System.Drawing.Size(240, 57);
             this.btnDonHang.TabIndex = 9;
             this.btnDonHang.Text = "      Đơn hàng";
             this.btnDonHang.Click += new System.EventHandler(this.btnDonHang_Click);
@@ -359,6 +365,45 @@
             this.sataEllipseControl1.CornerRadius = 30;
             this.sataEllipseControl1.TargetControl = this;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.Control;
+            this.label2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label2.Location = new System.Drawing.Point(3, 176);
+            this.label2.Name = "label2";
+            this.label2.Padding = new System.Windows.Forms.Padding(10, 13, 51, 7);
+            this.label2.Size = new System.Drawing.Size(231, 42);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "+ Hoạt động kinh doanh";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.Control;
+            this.label3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label3.Location = new System.Drawing.Point(3, 0);
+            this.label3.Name = "label3";
+            this.label3.Padding = new System.Windows.Forms.Padding(10, 13, 51, 7);
+            this.label3.Size = new System.Drawing.Size(183, 42);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "+ Quản lý chung";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.Control;
+            this.label1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label1.Location = new System.Drawing.Point(3, 419);
+            this.label1.Name = "label1";
+            this.label1.Padding = new System.Windows.Forms.Padding(10, 13, 51, 7);
+            this.label1.Size = new System.Drawing.Size(200, 42);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "+ Quản lý hệ thống";
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
@@ -377,6 +422,7 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.flowLayoutPanel1.ResumeLayout(false);
+            this.flowLayoutPanel1.PerformLayout();
             this.pnTrangChu.ResumeLayout(false);
             this.pnTrangChu.PerformLayout();
             this.pnDangNhap.ResumeLayout(false);
@@ -426,6 +472,9 @@
         private System.Windows.Forms.Label btnDonHang;
         private System.Windows.Forms.Panel pnMain;
         private SATAUiFramework.Controls.SATAEllipseControl sataEllipseControl1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
     }
 }
 

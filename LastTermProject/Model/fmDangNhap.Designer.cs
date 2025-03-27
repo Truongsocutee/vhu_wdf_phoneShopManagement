@@ -34,10 +34,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.sataButton1 = new FrameworkTest.SATAButton();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txtControl = new System.Windows.Forms.Label();
-            this.sataButton1 = new FrameworkTest.SATAButton();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -106,38 +106,6 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "ĐĂNG NHẬP";
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Image = global::LastTermProject.Properties.Resources.remove_red_eye_cover;
-            this.label4.Location = new System.Drawing.Point(764, 202);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(22, 16);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "     ";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::LastTermProject.Properties.Resources.Rectangle_271;
-            this.pictureBox1.Location = new System.Drawing.Point(102, 172);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1120, 548);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
-            // 
-            // txtControl
-            // 
-            this.txtControl.AutoSize = true;
-            this.txtControl.Font = new System.Drawing.Font("Dexa Pro SmBd", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtControl.Image = global::LastTermProject.Properties.Resources.menu;
-            this.txtControl.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.txtControl.Location = new System.Drawing.Point(12, 9);
-            this.txtControl.Name = "txtControl";
-            this.txtControl.Size = new System.Drawing.Size(192, 34);
-            this.txtControl.TabIndex = 1;
-            this.txtControl.Text = "           Đăng nhập";
-            // 
             // sataButton1
             // 
             this.sataButton1.ButtonText = "Đăng nhập";
@@ -175,6 +143,39 @@
             this.sataButton1.TabIndex = 7;
             this.sataButton1.TextAutoCenter = true;
             this.sataButton1.TextOffset = new System.Drawing.Point(0, 3);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Image = global::LastTermProject.Properties.Resources.remove_red_eye_cover;
+            this.label4.Location = new System.Drawing.Point(764, 202);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(34, 20);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "     ";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::LastTermProject.Properties.Resources.Rectangle_271;
+            this.pictureBox1.Location = new System.Drawing.Point(102, 172);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(1120, 548);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabStop = false;
+            // 
+            // txtControl
+            // 
+            this.txtControl.AutoSize = true;
+            this.txtControl.Font = new System.Drawing.Font("Dexa Pro SmBd", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtControl.Image = global::LastTermProject.Properties.Resources.menu;
+            this.txtControl.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.txtControl.Location = new System.Drawing.Point(12, 9);
+            this.txtControl.Name = "txtControl";
+            this.txtControl.Size = new System.Drawing.Size(192, 34);
+            this.txtControl.TabIndex = 1;
+            this.txtControl.Text = "           Đăng nhập";
             // 
             // fmDangNhap
             // 

@@ -150,7 +150,7 @@ namespace LastTermProject
 
         private void btnThietBi_Click(object sender, EventArgs e)
         {
-            updateControl(4);
+            updateControl(7);
             updateVision(new fmThietBi());
         }
 
@@ -168,7 +168,7 @@ namespace LastTermProject
 
         private void btnDonHang_Click(object sender, EventArgs e)
         {
-            updateControl(7);
+            updateControl(4);
             updateVision(new fmDonHang());
         }
 
