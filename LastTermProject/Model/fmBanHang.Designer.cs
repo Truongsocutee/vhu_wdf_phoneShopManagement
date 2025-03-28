@@ -54,12 +54,14 @@
             this.label3 = new System.Windows.Forms.Label();
             this.dgvDonHang = new System.Windows.Forms.DataGridView();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.ivs = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.btnThem = new System.Windows.Forms.Button();
             this.btnXT = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.sataButton1 = new FrameworkTest.SATAButton();
+            this.sataButton3 = new FrameworkTest.SATAButton();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDonHang)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
@@ -253,7 +255,7 @@
             // 
             this.cbxMau.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.cbxMau.FormattingEnabled = true;
-            this.cbxMau.Location = new System.Drawing.Point(709, 502);
+            this.cbxMau.Location = new System.Drawing.Point(705, 505);
             this.cbxMau.Margin = new System.Windows.Forms.Padding(4);
             this.cbxMau.Name = "cbxMau";
             this.cbxMau.Size = new System.Drawing.Size(169, 31);
@@ -284,7 +286,7 @@
             // 
             this.cbxSoLuong.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.cbxSoLuong.FormattingEnabled = true;
-            this.cbxSoLuong.Location = new System.Drawing.Point(1005, 505);
+            this.cbxSoLuong.Location = new System.Drawing.Point(1007, 504);
             this.cbxSoLuong.Margin = new System.Windows.Forms.Padding(4);
             this.cbxSoLuong.Name = "cbxSoLuong";
             this.cbxSoLuong.Size = new System.Drawing.Size(87, 31);
@@ -325,19 +327,10 @@
             // 
             this.errorProvider1.ContainerControl = this;
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(301, 508);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(307, 22);
-            this.textBox1.TabIndex = 164;
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // ivs
             // 
             this.ivs.AutoSize = true;
-            this.ivs.Location = new System.Drawing.Point(1116, 975);
+            this.ivs.Location = new System.Drawing.Point(1117, 1009);
             this.ivs.Name = "ivs";
             this.ivs.Size = new System.Drawing.Size(0, 16);
             this.ivs.TabIndex = 165;
@@ -393,16 +386,104 @@
             this.btnXT.UseVisualStyleBackColor = false;
             this.btnXT.Click += new System.EventHandler(this.btnXT_Click);
             // 
+            // comboBox1
+            // 
+            this.comboBox1.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(296, 504);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(295, 31);
+            this.comboBox1.TabIndex = 168;
+            // 
+            // sataButton1
+            // 
+            this.sataButton1.ButtonText = "Xuất hóa đơn";
+            this.sataButton1.CheckedBackground = System.Drawing.Color.DodgerBlue;
+            this.sataButton1.CheckedForeColor = System.Drawing.Color.White;
+            this.sataButton1.CheckedImageTint = System.Drawing.Color.White;
+            this.sataButton1.CheckedOutline = System.Drawing.Color.DodgerBlue;
+            this.sataButton1.CustomDialogResult = System.Windows.Forms.DialogResult.None;
+            this.sataButton1.Font = new System.Drawing.Font("Bahnschrift SemiBold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sataButton1.HoverBackground = System.Drawing.Color.DodgerBlue;
+            this.sataButton1.HoverForeColor = System.Drawing.Color.White;
+            this.sataButton1.HoverImage = null;
+            this.sataButton1.HoverImageTint = System.Drawing.Color.White;
+            this.sataButton1.HoverOutline = System.Drawing.Color.Empty;
+            this.sataButton1.Image = null;
+            this.sataButton1.ImageAutoCenter = true;
+            this.sataButton1.ImageExpand = new System.Drawing.Point(0, 0);
+            this.sataButton1.ImageOffset = new System.Drawing.Point(0, 0);
+            this.sataButton1.ImageTint = System.Drawing.Color.White;
+            this.sataButton1.IsToggleButton = false;
+            this.sataButton1.IsToggled = false;
+            this.sataButton1.Location = new System.Drawing.Point(428, 929);
+            this.sataButton1.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.sataButton1.Name = "sataButton1";
+            this.sataButton1.NormalBackground = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(87)))), ((int)(((byte)(159)))));
+            this.sataButton1.NormalForeColor = System.Drawing.Color.White;
+            this.sataButton1.NormalOutline = System.Drawing.Color.Empty;
+            this.sataButton1.OutlineThickness = 2F;
+            this.sataButton1.PressedBackground = System.Drawing.Color.RoyalBlue;
+            this.sataButton1.PressedForeColor = System.Drawing.Color.White;
+            this.sataButton1.PressedImageTint = System.Drawing.Color.White;
+            this.sataButton1.PressedOutline = System.Drawing.Color.Empty;
+            this.sataButton1.Rounding = new System.Windows.Forms.Padding(5);
+            this.sataButton1.Size = new System.Drawing.Size(191, 56);
+            this.sataButton1.TabIndex = 169;
+            this.sataButton1.TextAutoCenter = true;
+            this.sataButton1.TextOffset = new System.Drawing.Point(0, 5);
+            // 
+            // sataButton3
+            // 
+            this.sataButton3.ButtonText = "In hóa đơn";
+            this.sataButton3.CheckedBackground = System.Drawing.Color.DodgerBlue;
+            this.sataButton3.CheckedForeColor = System.Drawing.Color.White;
+            this.sataButton3.CheckedImageTint = System.Drawing.Color.White;
+            this.sataButton3.CheckedOutline = System.Drawing.Color.DodgerBlue;
+            this.sataButton3.CustomDialogResult = System.Windows.Forms.DialogResult.None;
+            this.sataButton3.Font = new System.Drawing.Font("Bahnschrift SemiBold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sataButton3.HoverBackground = System.Drawing.Color.DodgerBlue;
+            this.sataButton3.HoverForeColor = System.Drawing.Color.White;
+            this.sataButton3.HoverImage = null;
+            this.sataButton3.HoverImageTint = System.Drawing.Color.White;
+            this.sataButton3.HoverOutline = System.Drawing.Color.Empty;
+            this.sataButton3.Image = null;
+            this.sataButton3.ImageAutoCenter = true;
+            this.sataButton3.ImageExpand = new System.Drawing.Point(0, 0);
+            this.sataButton3.ImageOffset = new System.Drawing.Point(0, 0);
+            this.sataButton3.ImageTint = System.Drawing.Color.White;
+            this.sataButton3.IsToggleButton = false;
+            this.sataButton3.IsToggled = false;
+            this.sataButton3.Location = new System.Drawing.Point(660, 929);
+            this.sataButton3.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.sataButton3.Name = "sataButton3";
+            this.sataButton3.NormalBackground = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(87)))), ((int)(((byte)(159)))));
+            this.sataButton3.NormalForeColor = System.Drawing.Color.White;
+            this.sataButton3.NormalOutline = System.Drawing.Color.Empty;
+            this.sataButton3.OutlineThickness = 2F;
+            this.sataButton3.PressedBackground = System.Drawing.Color.RoyalBlue;
+            this.sataButton3.PressedForeColor = System.Drawing.Color.White;
+            this.sataButton3.PressedImageTint = System.Drawing.Color.White;
+            this.sataButton3.PressedOutline = System.Drawing.Color.Empty;
+            this.sataButton3.Rounding = new System.Windows.Forms.Padding(5);
+            this.sataButton3.Size = new System.Drawing.Size(191, 56);
+            this.sataButton3.TabIndex = 171;
+            this.sataButton3.TextAutoCenter = true;
+            this.sataButton3.TextOffset = new System.Drawing.Point(0, 5);
+            // 
             // fmBanHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1199, 1000);
+            this.ClientSize = new System.Drawing.Size(1199, 1050);
+            this.Controls.Add(this.sataButton3);
+            this.Controls.Add(this.sataButton1);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.ivs);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.dgvDonHang);
             this.Controls.Add(this.txtSoKH);
             this.Controls.Add(this.cbxSoLuong);
@@ -468,11 +549,13 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DataGridView dgvDonHang;
         private System.Windows.Forms.ErrorProvider errorProvider1;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label ivs;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnXT;
         private System.Windows.Forms.Button btnThem;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private FrameworkTest.SATAButton sataButton1;
+        private FrameworkTest.SATAButton sataButton3;
     }
 }

@@ -52,6 +52,7 @@
             this.btnXoa = new System.Windows.Forms.Button();
             this.btnSua = new System.Windows.Forms.Button();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.label8 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSanPham)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
@@ -62,10 +63,9 @@
             this.txtControl.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtControl.Image = global::LastTermProject.Properties.Resources.menu;
             this.txtControl.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.txtControl.Location = new System.Drawing.Point(9, 7);
-            this.txtControl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.txtControl.Location = new System.Drawing.Point(12, 9);
             this.txtControl.Name = "txtControl";
-            this.txtControl.Size = new System.Drawing.Size(146, 24);
+            this.txtControl.Size = new System.Drawing.Size(179, 29);
             this.txtControl.TabIndex = 2;
             this.txtControl.Text = "           Thiết bị";
             // 
@@ -75,9 +75,10 @@
             this.btnTK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTK.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTK.ForeColor = System.Drawing.Color.White;
-            this.btnTK.Location = new System.Drawing.Point(567, 649);
+            this.btnTK.Location = new System.Drawing.Point(756, 799);
+            this.btnTK.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnTK.Name = "btnTK";
-            this.btnTK.Size = new System.Drawing.Size(150, 30);
+            this.btnTK.Size = new System.Drawing.Size(200, 37);
             this.btnTK.TabIndex = 215;
             this.btnTK.Text = "Thống kê sản phẩm";
             this.btnTK.UseVisualStyleBackColor = false;
@@ -88,9 +89,10 @@
             this.btnKT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnKT.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnKT.ForeColor = System.Drawing.Color.White;
-            this.btnKT.Location = new System.Drawing.Point(293, 649);
+            this.btnKT.Location = new System.Drawing.Point(391, 799);
+            this.btnKT.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnKT.Name = "btnKT";
-            this.btnKT.Size = new System.Drawing.Size(150, 30);
+            this.btnKT.Size = new System.Drawing.Size(200, 37);
             this.btnKT.TabIndex = 214;
             this.btnKT.Text = "Kiểm tra thông tin";
             this.btnKT.UseVisualStyleBackColor = false;
@@ -98,17 +100,19 @@
             // dgvSanPham
             // 
             this.dgvSanPham.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvSanPham.Location = new System.Drawing.Point(156, 380);
+            this.dgvSanPham.Location = new System.Drawing.Point(208, 468);
+            this.dgvSanPham.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgvSanPham.Name = "dgvSanPham";
             this.dgvSanPham.RowHeadersWidth = 51;
-            this.dgvSanPham.Size = new System.Drawing.Size(683, 225);
+            this.dgvSanPham.Size = new System.Drawing.Size(911, 277);
             this.dgvSanPham.TabIndex = 213;
             // 
             // txtSP
             // 
-            this.txtSP.Location = new System.Drawing.Point(293, 105);
+            this.txtSP.Location = new System.Drawing.Point(391, 129);
+            this.txtSP.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtSP.Name = "txtSP";
-            this.txtSP.Size = new System.Drawing.Size(229, 20);
+            this.txtSP.Size = new System.Drawing.Size(304, 22);
             this.txtSP.TabIndex = 210;
             this.txtSP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -116,9 +120,10 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label10.Location = new System.Drawing.Point(161, 104);
+            this.label10.Location = new System.Drawing.Point(215, 128);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(100, 18);
+            this.label10.Size = new System.Drawing.Size(127, 23);
             this.label10.TabIndex = 209;
             this.label10.Text = "Mã sản phẩm:";
             // 
@@ -126,10 +131,9 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(122, 56);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(163, 69);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(150, 17);
+            this.label2.Size = new System.Drawing.Size(186, 22);
             this.label2.TabIndex = 208;
             this.label2.Text = "+ Thông tin sản phẩm";
             // 
@@ -137,9 +141,10 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label3.Location = new System.Drawing.Point(548, 221);
+            this.label3.Location = new System.Drawing.Point(731, 272);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(69, 18);
+            this.label3.Size = new System.Drawing.Size(90, 23);
             this.label3.TabIndex = 206;
             this.label3.Text = "Số lượng:";
             // 
@@ -147,9 +152,10 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label7.Location = new System.Drawing.Point(161, 221);
+            this.label7.Location = new System.Drawing.Point(215, 272);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(66, 18);
+            this.label7.Size = new System.Drawing.Size(84, 23);
             this.label7.TabIndex = 203;
             this.label7.Text = "Màu sắc:";
             // 
@@ -157,18 +163,18 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(122, 325);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(163, 400);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(151, 17);
+            this.label4.Size = new System.Drawing.Size(185, 22);
             this.label4.TabIndex = 201;
             this.label4.Text = "+ Thống kê sản phẩm";
             // 
             // txtKM
             // 
-            this.txtKM.Location = new System.Drawing.Point(680, 105);
+            this.txtKM.Location = new System.Drawing.Point(907, 129);
+            this.txtKM.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtKM.Name = "txtKM";
-            this.txtKM.Size = new System.Drawing.Size(159, 20);
+            this.txtKM.Size = new System.Drawing.Size(211, 22);
             this.txtKM.TabIndex = 217;
             this.txtKM.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -176,17 +182,19 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label1.Location = new System.Drawing.Point(548, 104);
+            this.label1.Location = new System.Drawing.Point(731, 128);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(111, 18);
+            this.label1.Size = new System.Drawing.Size(142, 23);
             this.label1.TabIndex = 216;
             this.label1.Text = "Mã khuyến mãi:";
             // 
             // txtDG
             // 
-            this.txtDG.Location = new System.Drawing.Point(680, 160);
+            this.txtDG.Location = new System.Drawing.Point(907, 197);
+            this.txtDG.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtDG.Name = "txtDG";
-            this.txtDG.Size = new System.Drawing.Size(159, 20);
+            this.txtDG.Size = new System.Drawing.Size(211, 22);
             this.txtDG.TabIndex = 221;
             this.txtDG.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtDG.TextChanged += new System.EventHandler(this.txtDG_TextChanged);
@@ -195,17 +203,19 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label5.Location = new System.Drawing.Point(548, 159);
+            this.label5.Location = new System.Drawing.Point(731, 196);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(61, 18);
+            this.label5.Size = new System.Drawing.Size(78, 23);
             this.label5.TabIndex = 220;
             this.label5.Text = "Đơn giá:";
             // 
             // txtTenSP
             // 
-            this.txtTenSP.Location = new System.Drawing.Point(293, 160);
+            this.txtTenSP.Location = new System.Drawing.Point(391, 197);
+            this.txtTenSP.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtTenSP.Name = "txtTenSP";
-            this.txtTenSP.Size = new System.Drawing.Size(229, 20);
+            this.txtTenSP.Size = new System.Drawing.Size(304, 22);
             this.txtTenSP.TabIndex = 219;
             this.txtTenSP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -213,27 +223,30 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label6.Location = new System.Drawing.Point(161, 159);
+            this.label6.Location = new System.Drawing.Point(215, 196);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(102, 18);
+            this.label6.Size = new System.Drawing.Size(131, 23);
             this.label6.TabIndex = 218;
             this.label6.Text = "Tên sản phẩm:";
             // 
             // txtMau
             // 
-            this.txtMau.Location = new System.Drawing.Point(293, 220);
+            this.txtMau.Location = new System.Drawing.Point(391, 271);
+            this.txtMau.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtMau.Name = "txtMau";
-            this.txtMau.Size = new System.Drawing.Size(229, 20);
+            this.txtMau.Size = new System.Drawing.Size(304, 22);
             this.txtMau.TabIndex = 222;
             this.txtMau.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtMau.TextChanged += new System.EventHandler(this.txtMau_TextChanged);
             // 
             // txtSL
             // 
-            this.txtSL.Location = new System.Drawing.Point(680, 222);
+            this.txtSL.Location = new System.Drawing.Point(907, 273);
+            this.txtSL.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtSL.Name = "txtSL";
             this.txtSL.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtSL.Size = new System.Drawing.Size(159, 20);
+            this.txtSL.Size = new System.Drawing.Size(211, 22);
             this.txtSL.TabIndex = 223;
             this.txtSL.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtSL.TextChanged += new System.EventHandler(this.txtSL_TextChanged);
@@ -245,9 +258,10 @@
             this.btnXT.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXT.ForeColor = System.Drawing.Color.White;
             this.btnXT.Image = global::LastTermProject.Properties.Resources.settings_backup_restore;
-            this.btnXT.Location = new System.Drawing.Point(742, 272);
+            this.btnXT.Location = new System.Drawing.Point(989, 335);
+            this.btnXT.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnXT.Name = "btnXT";
-            this.btnXT.Size = new System.Drawing.Size(97, 30);
+            this.btnXT.Size = new System.Drawing.Size(129, 37);
             this.btnXT.TabIndex = 225;
             this.btnXT.Text = "    ";
             this.btnXT.UseVisualStyleBackColor = false;
@@ -260,9 +274,10 @@
             this.btnThem.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThem.ForeColor = System.Drawing.Color.White;
             this.btnThem.Image = global::LastTermProject.Properties.Resources.add;
-            this.btnThem.Location = new System.Drawing.Point(164, 272);
+            this.btnThem.Location = new System.Drawing.Point(219, 335);
+            this.btnThem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(93, 30);
+            this.btnThem.Size = new System.Drawing.Size(124, 37);
             this.btnThem.TabIndex = 224;
             this.btnThem.Text = "    ";
             this.btnThem.UseVisualStyleBackColor = false;
@@ -273,9 +288,10 @@
             this.btnXoa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnXoa.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoa.ForeColor = System.Drawing.Color.White;
-            this.btnXoa.Location = new System.Drawing.Point(357, 272);
+            this.btnXoa.Location = new System.Drawing.Point(476, 335);
+            this.btnXoa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(97, 30);
+            this.btnXoa.Size = new System.Drawing.Size(129, 37);
             this.btnXoa.TabIndex = 227;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = false;
@@ -286,9 +302,10 @@
             this.btnSua.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSua.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSua.ForeColor = System.Drawing.Color.White;
-            this.btnSua.Location = new System.Drawing.Point(551, 272);
+            this.btnSua.Location = new System.Drawing.Point(735, 335);
+            this.btnSua.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(93, 30);
+            this.btnSua.Size = new System.Drawing.Size(124, 37);
             this.btnSua.TabIndex = 226;
             this.btnSua.Text = "Sửa";
             this.btnSua.UseVisualStyleBackColor = false;
@@ -297,11 +314,21 @@
             // 
             this.errorProvider1.ContainerControl = this;
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(959, 893);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(0, 16);
+            this.label8.TabIndex = 228;
+            // 
             // fmThietBi
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(899, 748);
+            this.AutoScroll = true;
+            this.ClientSize = new System.Drawing.Size(1199, 921);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.btnXoa);
             this.Controls.Add(this.btnSua);
             this.Controls.Add(this.btnXT);
@@ -325,7 +352,7 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtControl);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "fmThietBi";
             this.Text = "fmThietBi";
             ((System.ComponentModel.ISupportInitialize)(this.dgvSanPham)).EndInit();
@@ -360,5 +387,6 @@
         private System.Windows.Forms.Button btnXoa;
         private System.Windows.Forms.Button btnSua;
         private System.Windows.Forms.ErrorProvider errorProvider1;
+        private System.Windows.Forms.Label label8;
     }
 }
