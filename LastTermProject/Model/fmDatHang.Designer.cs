@@ -1,6 +1,6 @@
 ﻿namespace LastTermProject.Model
 {
-    partial class fmDonHang
+    partial class fmDatHang
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.txtControl = new System.Windows.Forms.Label();
             this.cbxNhaCC = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -36,7 +35,7 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.txtSP = new System.Windows.Forms.TextBox();
+            this.txtDH = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.dgvDonHang = new System.Windows.Forms.DataGridView();
@@ -52,13 +51,11 @@
             this.label3 = new System.Windows.Forms.Label();
             this.txtTenSP = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtSP = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.label15 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDonHang)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // txtControl
@@ -87,7 +84,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label6.Location = new System.Drawing.Point(528, 99);
+            this.label6.Location = new System.Drawing.Point(521, 99);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(100, 18);
             this.label6.TabIndex = 179;
@@ -127,26 +124,26 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(97, 415);
+            this.label4.Location = new System.Drawing.Point(102, 400);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(151, 17);
             this.label4.TabIndex = 181;
             this.label4.Text = "+ Thống kê sản phẩm";
             // 
-            // txtSP
+            // txtDH
             // 
-            this.txtSP.Location = new System.Drawing.Point(273, 193);
-            this.txtSP.Name = "txtSP";
-            this.txtSP.Size = new System.Drawing.Size(229, 20);
-            this.txtSP.TabIndex = 195;
-            this.txtSP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtDH.Location = new System.Drawing.Point(653, 185);
+            this.txtDH.Name = "txtDH";
+            this.txtDH.Size = new System.Drawing.Size(166, 20);
+            this.txtDH.TabIndex = 195;
+            this.txtDH.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label10.Location = new System.Drawing.Point(141, 192);
+            this.label10.Location = new System.Drawing.Point(521, 184);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(95, 18);
             this.label10.TabIndex = 194;
@@ -156,7 +153,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(102, 153);
+            this.label2.Location = new System.Drawing.Point(102, 145);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(146, 17);
@@ -166,10 +163,10 @@
             // dgvDonHang
             // 
             this.dgvDonHang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDonHang.Location = new System.Drawing.Point(136, 466);
+            this.dgvDonHang.Location = new System.Drawing.Point(136, 442);
             this.dgvDonHang.Name = "dgvDonHang";
             this.dgvDonHang.RowHeadersWidth = 51;
-            this.dgvDonHang.Size = new System.Drawing.Size(683, 192);
+            this.dgvDonHang.Size = new System.Drawing.Size(683, 225);
             this.dgvDonHang.TabIndex = 198;
             // 
             // btnTK
@@ -178,7 +175,7 @@
             this.btnTK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTK.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTK.ForeColor = System.Drawing.Color.White;
-            this.btnTK.Location = new System.Drawing.Point(428, 680);
+            this.btnTK.Location = new System.Drawing.Point(405, 686);
             this.btnTK.Name = "btnTK";
             this.btnTK.Size = new System.Drawing.Size(97, 30);
             this.btnTK.TabIndex = 200;
@@ -200,10 +197,10 @@
             this.btnXoa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnXoa.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoa.ForeColor = System.Drawing.Color.White;
-            this.btnXoa.Location = new System.Drawing.Point(328, 356);
+            this.btnXoa.Location = new System.Drawing.Point(337, 352);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(97, 30);
-            this.btnXoa.TabIndex = 243;
+            this.btnXoa.TabIndex = 244;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = false;
             // 
@@ -213,10 +210,10 @@
             this.btnSua.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSua.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSua.ForeColor = System.Drawing.Color.White;
-            this.btnSua.Location = new System.Drawing.Point(522, 356);
+            this.btnSua.Location = new System.Drawing.Point(531, 352);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(93, 30);
-            this.btnSua.TabIndex = 242;
+            this.btnSua.TabIndex = 243;
             this.btnSua.Text = "Sửa";
             this.btnSua.UseVisualStyleBackColor = false;
             // 
@@ -227,13 +224,12 @@
             this.btnXT.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXT.ForeColor = System.Drawing.Color.White;
             this.btnXT.Image = global::LastTermProject.Properties.Resources.settings_backup_restore;
-            this.btnXT.Location = new System.Drawing.Point(713, 356);
+            this.btnXT.Location = new System.Drawing.Point(722, 352);
             this.btnXT.Name = "btnXT";
             this.btnXT.Size = new System.Drawing.Size(97, 30);
-            this.btnXT.TabIndex = 241;
+            this.btnXT.TabIndex = 242;
             this.btnXT.Text = "    ";
             this.btnXT.UseVisualStyleBackColor = false;
-            this.btnXT.Click += new System.EventHandler(this.btnXT_Click);
             // 
             // btnThem
             // 
@@ -242,112 +238,105 @@
             this.btnThem.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThem.ForeColor = System.Drawing.Color.White;
             this.btnThem.Image = global::LastTermProject.Properties.Resources.add;
-            this.btnThem.Location = new System.Drawing.Point(135, 356);
+            this.btnThem.Location = new System.Drawing.Point(144, 352);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(93, 30);
-            this.btnThem.TabIndex = 240;
+            this.btnThem.TabIndex = 241;
             this.btnThem.Text = "    ";
             this.btnThem.UseVisualStyleBackColor = false;
             // 
             // txtSL
             // 
-            this.txtSL.Location = new System.Drawing.Point(660, 310);
+            this.txtSL.Location = new System.Drawing.Point(660, 302);
             this.txtSL.Name = "txtSL";
             this.txtSL.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtSL.Size = new System.Drawing.Size(159, 20);
-            this.txtSL.TabIndex = 239;
+            this.txtSL.TabIndex = 240;
             this.txtSL.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtSL.TextChanged += new System.EventHandler(this.txtSL_TextChanged);
             // 
             // txtMau
             // 
-            this.txtMau.Location = new System.Drawing.Point(273, 308);
+            this.txtMau.Location = new System.Drawing.Point(273, 300);
             this.txtMau.Name = "txtMau";
             this.txtMau.Size = new System.Drawing.Size(229, 20);
-            this.txtMau.TabIndex = 238;
+            this.txtMau.TabIndex = 239;
             this.txtMau.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtMau.TextChanged += new System.EventHandler(this.txtMau_TextChanged);
             // 
             // txtDG
             // 
-            this.txtDG.Location = new System.Drawing.Point(660, 248);
+            this.txtDG.Location = new System.Drawing.Point(660, 240);
             this.txtDG.Name = "txtDG";
             this.txtDG.Size = new System.Drawing.Size(159, 20);
-            this.txtDG.TabIndex = 237;
+            this.txtDG.TabIndex = 238;
             this.txtDG.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtDG.TextChanged += new System.EventHandler(this.txtDG_TextChanged);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label3.Location = new System.Drawing.Point(528, 247);
+            this.label3.Location = new System.Drawing.Point(528, 239);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(61, 18);
-            this.label3.TabIndex = 236;
+            this.label3.TabIndex = 237;
             this.label3.Text = "Đơn giá:";
             // 
             // txtTenSP
             // 
-            this.txtTenSP.Location = new System.Drawing.Point(273, 248);
+            this.txtTenSP.Location = new System.Drawing.Point(273, 240);
             this.txtTenSP.Name = "txtTenSP";
             this.txtTenSP.Size = new System.Drawing.Size(229, 20);
-            this.txtTenSP.TabIndex = 235;
+            this.txtTenSP.TabIndex = 236;
             this.txtTenSP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label7.Location = new System.Drawing.Point(141, 247);
+            this.label7.Location = new System.Drawing.Point(141, 239);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(102, 18);
-            this.label7.TabIndex = 234;
+            this.label7.TabIndex = 235;
             this.label7.Text = "Tên sản phẩm:";
             // 
-            // textBox1
+            // txtSP
             // 
-            this.textBox1.Location = new System.Drawing.Point(645, 193);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(174, 20);
-            this.textBox1.TabIndex = 231;
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtSP.Location = new System.Drawing.Point(273, 185);
+            this.txtSP.Name = "txtSP";
+            this.txtSP.Size = new System.Drawing.Size(229, 20);
+            this.txtSP.TabIndex = 232;
+            this.txtSP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label11.Location = new System.Drawing.Point(528, 192);
+            this.label11.Location = new System.Drawing.Point(141, 184);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(100, 18);
-            this.label11.TabIndex = 230;
+            this.label11.TabIndex = 231;
             this.label11.Text = "Mã sản phẩm:";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label12.Location = new System.Drawing.Point(528, 309);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(69, 18);
-            this.label12.TabIndex = 229;
-            this.label12.Text = "Số lượng:";
             // 
             // label13
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label13.Location = new System.Drawing.Point(141, 309);
+            this.label13.Location = new System.Drawing.Point(528, 301);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(66, 18);
-            this.label13.TabIndex = 228;
-            this.label13.Text = "Màu sắc:";
+            this.label13.Size = new System.Drawing.Size(69, 18);
+            this.label13.TabIndex = 229;
+            this.label13.Text = "Số lượng:";
             // 
-            // errorProvider1
+            // label15
             // 
-            this.errorProvider1.ContainerControl = this;
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label15.Location = new System.Drawing.Point(141, 301);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(66, 18);
+            this.label15.TabIndex = 228;
+            this.label15.Text = "Màu sắc:";
             // 
-            // fmDonHang
+            // fmDatHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -363,14 +352,14 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtTenSP);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtSP);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.label12);
             this.Controls.Add(this.label13);
+            this.Controls.Add(this.label15);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.btnTK);
             this.Controls.Add(this.dgvDonHang);
-            this.Controls.Add(this.txtSP);
+            this.Controls.Add(this.txtDH);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label4);
@@ -382,11 +371,10 @@
             this.Controls.Add(this.txtControl);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Name = "fmDonHang";
-            this.Text = "fmDonHang";
-            this.Load += new System.EventHandler(this.fmDonHang_Load);
+            this.Name = "fmDatHang";
+            this.Text = "fmDatHang";
+            this.Load += new System.EventHandler(this.fmDatHang_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDonHang)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -401,7 +389,7 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtSP;
+        private System.Windows.Forms.TextBox txtDH;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DataGridView dgvDonHang;
@@ -417,10 +405,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtTenSP;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtSP;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.ErrorProvider errorProvider1;
+        private System.Windows.Forms.Label label15;
     }
 }

@@ -20,8 +20,74 @@ namespace LastTermProject.Model
         private void fmDonHang_Load(object sender, EventArgs e)
         {
             txtNgayGD.Text = DateTime.Now.ToString("dd / MM / yyyy");
-            for (int i = 1; i < 11; i++)
-                cbxSoLuong.Items.Add(i.ToString());
+        }
+
+        static bool checkTu(string text)
+        {
+            foreach (char c in text)
+            {
+                if (c < 'A' || c > 'z') return false;
+            }
+            return true;
+        }
+
+        static bool checkSo(string text)
+        {
+            foreach (char c in text)
+            {
+                if (c < '0' || c > '9') return false;
+            }
+            return true;
+        }
+
+        private void txtMau_TextChanged(object sender, EventArgs e)
+        {
+            Control ctr = (Control)sender;
+            if (!checkTu(txtMau.Text))
+            {
+                this.errorProvider1.SetError(ctr, "Phải nhập chữ");
+            }
+            else
+            {
+                this.errorProvider1.Clear();
+            }
+        }
+
+        private void txtSL_TextChanged(object sender, EventArgs e)
+        {
+            Control ctr = (Control)sender;
+            if (!checkSo(txtSL.Text))
+            {
+                this.errorProvider1.SetError(ctr, "Phải nhập chữ");
+            }
+            else
+            {
+                this.errorProvider1.Clear();
+            }
+        }
+
+        private void btnXT_Click(object sender, EventArgs e)
+        {
+            txtSP.ResetText();
+            txtSP.Focus();
+            txtTenSP.ResetText();
+            txtDG.ResetText();
+            txtSL.ResetText();
+            txtMau.ResetText();
+            cbxNhaCC.ResetText();
+        }
+
+        private void txtDG_TextChanged(object sender, EventArgs e)
+        {
+            Control ctr = (Control)sender;
+            if (!checkSo(txtDG.Text))
+            {
+                this.errorProvider1.SetError(ctr, "Phải nhập chữ");
+            }
+            else
+            {
+                this.errorProvider1.Clear();
+            }
         }
     }
 }
